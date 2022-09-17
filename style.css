@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Merriweather:ital@0;1&family=Oswald:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Merriweather&family=Oswald:wght@300&family=Ubuntu&display=swap');
+
+
+body {
+    background-color: yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+nav {
+    font-family: 'Ubuntu',sans-serif;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 59px;
+    color: goldenrod;
+    background-color:black;
+
+}
+nav ul li {
+    /* padding-top: 5%; */
+    padding: 19px 19px ;
+}
+.brand img {
+   width: 55px;
+
+}
+.brand{
+    display:flex;
+    align-items:center;
+    font-weight:bolder;
+    font-size:1.3rem;
+}
+.container{
+    min-height:75vh;
+    color:rgb(255, 0, 0);
+}
+.bottom{
+    position: sticky;
+    height:110px;
+    background-color: black;
+    color: lightsteelblue;
+   bottom: 0;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   flex-direction: column;
+}
+
+#myProgressBar{
+    width:80vw;
+
+
+
+}
